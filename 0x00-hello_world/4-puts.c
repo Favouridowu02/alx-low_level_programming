@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-/** 
+/* 
  *Main -entry point
  *Return 0: return default function return
  */
