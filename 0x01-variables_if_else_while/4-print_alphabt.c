@@ -12,11 +12,7 @@ a = 'a';
 
 while (a <= 'z')
 {
-if (a != 'q')
-{
-putchar(a);
-}
-else if (a != 'e')
+if (a != 'q' || a != 'e')
 {
 putchar(a);
 }
