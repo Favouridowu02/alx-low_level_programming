@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - Entry point
+ * Return - 0
+ */
+
+int main(void)
+{
+char a;
+a = 'a';
+
+while (a <= 'z')
+{
+if (a != 'q')
+{
+putchar(a);
+}
+else if (a != 'e')
+{
+putchar(a);
+}
+a++;
+}
+putchar('\n');
+return (0);
+}
