@@ -16,6 +16,9 @@ if (a != 'q' || a != 'e')
 {
 putchar(a);
 }
+else
+{
+}
 a++;
 }
 putchar('\n');
