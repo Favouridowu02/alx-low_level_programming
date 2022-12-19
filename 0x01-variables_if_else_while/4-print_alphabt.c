@@ -10,16 +10,12 @@ int main(void)
 char a;
 a = 'a';
 
-while (a <= 'z')
+if (a <= 'z')
 {
-if (a != 'q' || a != 'e')
+for (; a != 'q' || a != 'e'; a++)
 {
 putchar(a);
 }
-else
-{
-}
-a++;
 }
 putchar('\n');
 return (0);
