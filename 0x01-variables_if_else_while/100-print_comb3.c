@@ -10,13 +10,17 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = 0; a <= 9; a++)
+	for (a = 0; a < 9; a++)
 	{
 		putchar((a % 10) + '0');
-		for (b = 0; b <= 9; b++)
+		for (b = a + 1; b <= 9; b++)
+		{
 			putchar((b % 10) + '0');
-		putchar(',');
-		putchar(' ');
+			if (b == 9)
+				break;
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
