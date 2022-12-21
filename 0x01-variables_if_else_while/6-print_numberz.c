@@ -9,6 +9,7 @@ int main(void)
 {
 	int a;
 
+	a = 1;
 	a = (char)a;
 	for (a = 1; a <= 9; a++)
 	{
