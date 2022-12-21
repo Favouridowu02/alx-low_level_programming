@@ -8,7 +8,6 @@
 int main(void)
 {
 	int a;
-	char b;
 
 	for (a = 1; a <= 9; a++)
 	{
