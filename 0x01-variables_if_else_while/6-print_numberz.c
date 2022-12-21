@@ -10,10 +10,9 @@ int main(void)
 	int a;
 
 	a = 0;
-	a = a % 10;
 	while (a <= 9)
 	{
-		putchar(a);
+		putchar(a % 10) + '0');
 		a++;
 	}
 	putchar('\n');
