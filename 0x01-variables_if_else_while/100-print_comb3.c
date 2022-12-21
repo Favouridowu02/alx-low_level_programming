@@ -8,12 +8,11 @@
 int main(void)
 {
 	int a;
+	int b;
 
 	for (a = 0; a <= 9; a++)
 	{
 		putchar((a % 10) + '0');
-		int b;
-
 		for (b = 0; b <= 9; b++)
 			putchar((b % 10) + '0')
 		putchar(',');
