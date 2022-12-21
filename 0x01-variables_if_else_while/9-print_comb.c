@@ -14,8 +14,10 @@ int main(void)
 		putchar((a % 10) + '0');
 		if (a == 0)
 			break;
-		putchar(',');
-		putchar(' ');
+		else {
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
