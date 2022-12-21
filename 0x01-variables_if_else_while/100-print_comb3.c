@@ -16,7 +16,7 @@ int main(void)
 		for (b = a + 1; b <= 9; b++)
 		{
 			putchar((b % 10) + '0');
-			if (b == 9)
+			if (a == 8 && b == 9)
 				break;
 			putchar(',');
 			putchar(' ');
