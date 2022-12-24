@@ -6,17 +6,17 @@
  */
 void times_table(void)
 {
-	int num, mul, prud;
+	int num, mult, prud;
 
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar('0');
-		for (mul = 1; mul <= 9; mul++)
+		for (mult = 1)
 		{
 			_putchar(',');
 			_putchar(' ');
 
-			prud = num * mul;
+			prud = num * mult;
 			if (prud <= 9)
 				_putchar(' ');
 			else
