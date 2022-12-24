@@ -15,8 +15,13 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
+
 			prud = num * mul;
-			_putchar(prud + '0');
+			if (prud <= 9)
+				_putchar(' ');
+			else
+				_putchar((prud / 10) + '0');
+			_putchar((prud % 10) + '0');
 		}
 		_putchar('\n');
 	}
