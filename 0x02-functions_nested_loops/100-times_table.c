@@ -28,7 +28,7 @@ void print_times_table(int n)
 			if (prud >= 100)
 			{
 				_putchar((prud / 100) + '0');
-				_putchar(((prud / 10) % 10) + '0');
+				_putchar(((prud / 10)) % 10 + '0');
 			}
 			else if (prud >= 10 && prud <= 99)
 				_putchar((prud / 10) + '0');
