@@ -20,7 +20,8 @@ int main(void)
 	{
 		if (i == 50)
 			printf("%ld", sum);
-		printf("%ld, ", sum);
+		else
+			printf("%ld, ", sum);
 		j = k;
 		k = sum;
 		sum = j + k;
