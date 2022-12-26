@@ -6,18 +6,20 @@
  * The sum of these multiples is 23. Write a program
  * that computes and prints the sum of all the multiples
  * of 3 or 5 below 1024 (excluded), followed by a new line.
+ * Return: returns 0
  */
 int main(void)
 {
-	int num3 num5;
+	int numx numy;
 
-	for (num3 = 3; num3 <= 1024; num3 += 3)
+	for (numx = 3; numx <= 1024; numx += 3)
 	{
-		for (num5 = 5; num5 <= 1024; num5 += 5)
+		for (numy = 5; numy <= 1024; numy += 5)
 		{
 			printf("%d", num3);
 			printf("%d", num5);
 		}
 		printf("\n")
 	}
+	return (0);
 }
