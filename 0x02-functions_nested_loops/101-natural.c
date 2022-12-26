@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	int numx numy;
+	int numx, numy;
 
 	for (numx = 3; numx <= 1024; numx += 3)
 	{
