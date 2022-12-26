@@ -9,8 +9,8 @@ int main(void)
 {
 	int i, j, k, sum;
 
-	j = 0;
-	k = 1;
+	j = 1;
+	k = 2;
 	sum = j + k;
 	printf("%d, %d", j, k);
 
