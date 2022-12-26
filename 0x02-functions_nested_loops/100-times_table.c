@@ -19,11 +19,11 @@ void print_times_table(int n)
 			_putchar(',');
 			_putchar(' ');
 			prud = num * mult;
-			if (prud <= 9)
+			if (prud <= 99)
 			{
 				_putchar(' ');
 			}
-			if (prud <= 99)
+			if (prud <= 9)
 				_putchar(' ');
 			if (prud >= 100)
 			{
