@@ -13,7 +13,7 @@ int main(void)
 {
 	int numx, numy;
 	
-	for (numx = 0; numx <= 1024; numx += 3)
+	for (numx = 3; numx <= 1024; numx += 3)
 	{
 		printf("%d ,", numx);
 		printf("%d ,", numy += 5);
