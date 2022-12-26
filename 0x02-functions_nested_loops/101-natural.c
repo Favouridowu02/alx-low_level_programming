@@ -11,13 +11,13 @@
  */
 int main(void)
 {
-	int numx, numy;
+	int i, sum = 0;
 	
-	for (numx = 3; numx <= 1024; numx += 3)
+	for (i = 0; i < 1024; i += 1)
 	{
-		printf("%d ,", numx);
-		printf("%d ,", numy += 5);
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += 1;
 	}
-	putchar('\n');
+	printf("%d\n", i);
 	return (0);
 }
