@@ -16,10 +16,10 @@ int main(void)
 
 	for (i = 3; i <= 50; i++)
 	{
+		printf("%d", sum);
 		j = k;
 		k = sum;
 		sum = j + k;
-		printf("%d ,", sum);
 	}
 	printf("\n");
 	return (0);
