@@ -18,6 +18,10 @@ int main(void)
 
 	for (i = 3; i <= 50; i++)
 	{
+		if (i = 50)
+		{
+			printf("%ld", sum);
+		}
 		printf("%ld, ", sum);
 		j = k;
 		k = sum;
