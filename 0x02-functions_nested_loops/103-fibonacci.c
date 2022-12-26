@@ -16,7 +16,7 @@ int main(void)
 
 	do {
 		j = k;
-		k = sum
+		k = sum;
 		sum = j + k;
 		if ((sum % 2) == 0 || sum == 4000000)
 			i += sum;
