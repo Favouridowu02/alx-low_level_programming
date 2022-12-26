@@ -21,7 +21,7 @@ int main(void)
 		if ((sum % 2) == 0 || sum == 4000000)
 			i += sum;
 	}
-	while (sum <= 4000000)
+	while (sum <= 4000000);
 	printf("%ld", i);
 	return (0);
 }
