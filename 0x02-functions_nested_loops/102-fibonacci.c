@@ -7,11 +7,14 @@
  */
 int main(void)
 {
-	int i, sum = 0;
+	int i, j, sum = 0;
 
 	for (i = 0; i <= 50; i++)
 	{
-		sum += i;
+		j = 0;
+
+		sum = i + j++;
+		printf("%d ,", sum);
 	}
 	printf("%d", sum);
 	return (0);
