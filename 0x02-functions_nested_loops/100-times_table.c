@@ -11,29 +11,32 @@ void print_times_table(int n)
 {
 	int num, mult, prud;
 
-	for (num = 0; num <= n; num++)
+	if  (n >= 0 && n <= 15)
 	{
-		_putchar('0');
-		for (mult = 1; mult <= n; mult++)
+		for (num = 0; num <= n; num++)
 		{
-			_putchar(',');
-			_putchar(' ');
-			prud = num * mult;
-			if (prud <= 99)
+			_putchar('0');
+			for (mult = 1; mult <= n; mult++)
 			{
+				_putchar(',');
 				_putchar(' ');
+				prud = num * mult;
+				if (prud <= 99)
+				{
+					_putchar(' ');
+				}
+				if (prud <= 9)
+					_putchar(' ');
+				if (prud >= 100)
+				{
+					_putchar((prud / 100) + '0');
+					_putchar(((prud / 10)) % 10 + '0');
+				}
+				else if (prud >= 10 && prud <= 99)
+					_putchar((prud / 10) + '0');
+				_putchar((prud % 10) + '0');
 			}
-			if (prud <= 9)
-				_putchar(' ');
-			if (prud >= 100)
-			{
-				_putchar((prud / 100) + '0');
-				_putchar(((prud / 10)) % 10 + '0');
-			}
-			else if (prud >= 10 && prud <= 99)
-				_putchar((prud / 10) + '0');
-			_putchar((prud % 10) + '0');
-		}
-		_putchar('\n');
+			_putchar('\n');
 		}
 	}
+}
