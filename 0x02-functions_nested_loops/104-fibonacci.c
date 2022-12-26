@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	long int j, k, sum;
+	long unsigned int j, k, sum;
 
 	j = 0;
 	k = 1;
@@ -16,7 +16,7 @@ int main(void)
 	for (i = 0; i <= 98; i++)
 	{
 		sum = j + k;
-		printf("%ld, ", sum);
+		printf("%lu, ", sum);
 		j = k;
 		k = sum;
 	}
