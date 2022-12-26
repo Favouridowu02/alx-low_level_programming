@@ -10,8 +10,8 @@ int main(void)
 	long int i = 0;
 	long int j, k, sum;
 
-	j = 1;
-	k = 2;
+	j = 0;
+	k = 1;
 	sum = j + k;
 
 	do {
@@ -22,6 +22,6 @@ int main(void)
 			i += sum;
 	}
 	while (sum <= 4000000);
-	printf("%ld", i);
+	printf("%ld\n", i);
 	return (0);
 }
