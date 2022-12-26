@@ -7,15 +7,20 @@
  */
 int main(void)
 {
-	int i, j, sum = 0;
+	int i, j, k, sum;
 
-	for (i = 0; i <= 50; i++)
+	j = 0;
+	k = 1;
+	sum = j + k;
+	printf("%d, %d", j, k);
+
+	for (i = 3; i <= 50; i++)
 	{
-		j = 0;
-
-		sum = i + j++;
+		j = k;
+		k = sum;
+		sum = j + k;
 		printf("%d ,", sum);
 	}
-	printf("%d", sum);
+	printf("\n");
 	return (0);
 }
