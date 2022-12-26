@@ -20,8 +20,7 @@ int main(void)
 		sum = j + k;
 		if ((sum % 2) == 0 || sum == 4000000)
 			i += sum;
-	}
-	while (sum <= 4000000);
+	} while (sum <= 4000000);
 	printf("%ld\n", i);
 	return (0);
 }
