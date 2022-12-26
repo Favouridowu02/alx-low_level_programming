@@ -17,10 +17,10 @@ int main(void)
 	{
 		for (numy = 5; numy <= 1024; numy += 5)
 		{
-			printf("%d", numx);
-			printf("%d", numy);
+			printf("%d ,", numx);
+			printf("%d ,", numy);
 		}
-		printf("\n")
 	}
+	putchar('\n');
 	return (0);
 }
