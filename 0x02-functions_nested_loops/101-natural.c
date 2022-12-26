@@ -12,14 +12,11 @@
 int main(void)
 {
 	int numx, numy;
-
-	for (numx = 3; numx <= 1024; numx += 3)
+	
+	for (numx = 0; numx <= 1024; numx += 3)
 	{
-		for (numy = 5; numy <= 1024; numy += 5)
-		{
-			printf("%d ,", numx += 3);
-			printf("%d ,", numy);
-		}
+		printf("%d ,", numx);
+		printf("%d ,", numy += 5);
 	}
 	putchar('\n');
 	return (0);
