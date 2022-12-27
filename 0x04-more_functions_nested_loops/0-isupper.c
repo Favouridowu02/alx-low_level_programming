@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isupper -
+ * _isupper - Write a function that checks for uppercase character
  * @c: the parameter to be passed
+ * Return: returns 1 if upper and 0 if otherwise
  */
 int _isupper(int c)
 {
