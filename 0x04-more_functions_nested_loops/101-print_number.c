@@ -6,9 +6,9 @@
  */
 void print_number(int n)
 {
-	if (n > 9)
+	if (n > 9 && n <= 99)
 		_putchar((n / 10) + '0');
-	if (n > 99)
+	if (n > 99 && n <= 999)
 	{
 		_putchar((n / 100) + '0');
 		_putchar((n / 10) % 10 + '0');
