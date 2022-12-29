@@ -5,9 +5,8 @@
  * followed by a new line. But for multiples of three print Fizz
  * instead of the number and for the multiples of five print Buzz.
  * For numbers which are multiples of both three and five print FizzBuzz.
- * Return: returns 0
  */
-int main(void)
+void main(void)
 {
 	int a;
 
@@ -21,7 +20,8 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d ", a);
+		if (a == 100)
+			printf("%d", a);
 	}
 	putchar('\n');
-	return (0);
 }
