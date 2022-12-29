@@ -24,7 +24,5 @@ int main(void)
 		}
 	}
 	printf("%lu", i);
-	if (n > 2)
-		printf("%lu", n);
 	return (0);
 }
