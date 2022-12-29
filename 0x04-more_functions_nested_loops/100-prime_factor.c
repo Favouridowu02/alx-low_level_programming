@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * main - Write a program that finds and prints the largest prime factor of
@@ -16,9 +15,9 @@ int main(void)
 		printf("%d ", 2);
 		n /= 2;
 	}
-	for (i = 3; i <= sqrt(n); i += 2)
+	for (i = 3; i < 782849; i += 2)
 	{
-		while (n % i == 0)
+		while (n % i == 0 && n != i)
 		{
 			n /= i;
 		}
