@@ -7,8 +7,11 @@
  */
 int _strlen(char *s)
 {
-	int len;
+	int l = 0; /* length of string */
 
-	len = sizeof(*s);
+	for (; *s++;)
+	{
+		l++;
+	}
 	return (len);
 }
