@@ -7,7 +7,7 @@
  * Description: Write a function that concatenates two strings
  * Return: (0)exit
  */
-int char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 	
