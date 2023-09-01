@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 	int i, n, sum = 0;
 	char *flag;
 
-	if (argc == 1)
+	if (argc < 2)
 	{
 		printf("0\n");
 		return (0);
@@ -21,9 +21,9 @@ int main(int argc, char **argv)
 	{
 		n =  strtol(argv[i], &flag, 10);
 		
-		if (argc == 1)
+		if (*flag)
 		{
-			printf("%d", 0);
+			printf("Error\n");
 			return (0);
 		}
 		else
