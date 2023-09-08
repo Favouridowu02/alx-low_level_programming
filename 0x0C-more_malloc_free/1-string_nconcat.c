@@ -30,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		k[i] = s2[j];
 	}
-	if (k[j] != '\0')
+	if (k[i] != '\0')
 		k[i] = '\0';
 	return (k);
 }
