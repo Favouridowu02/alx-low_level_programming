@@ -4,6 +4,8 @@
  * listint_len - a function that returns the number of elements in a
  * linked listint_t list
  * @h: an instance of a node
+ *
+ * Return: the number of elements
  */
 size_t listint_len(const listint_t *h)
 {
