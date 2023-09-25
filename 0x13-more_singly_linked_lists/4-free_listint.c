@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_list - Write a function that frees a listint_t list.
+ * free_listint - Write a function that frees a listint_t list.
  * @head: an instance of a node
  */
 void free_listint(listint_t *head)
