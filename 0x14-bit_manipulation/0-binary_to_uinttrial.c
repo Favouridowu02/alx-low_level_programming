@@ -1,5 +1,18 @@
 #include "main.h"
-#include <math.h>
+
+/**
+ * _strlen - calculates the length of a string
+ * @b: the string to be pased
+ * Return: the length of the string
+ */
+int _strlen(const char *b)
+{
+	int i = 0;
+
+	while (b[i] != '\0')
+		i++;
+	return (i);
+}
 
 /**
  * binary_to_uint - a function that converts a binary number to an unsigned int
@@ -10,22 +23,22 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int len, i, j;
-	unsigned int d;
+	int i, len;
+	unsigned int decimal_result;
 
-	for (len = 0; b[len] != '\0'; len++)
+	len = _strlen(b);
+	for (i = 0; i < len; i++)
 	{
-		if (b[len] != '0' && b[len] != '1')
+		if (b[i] != '0' && b[i] != '1')
 			return (0);
 	}
 	if (b == NULL)
 		return (0);
-	j = 0;
-	d = 0;
-	for (i = 0; len > i; len--)
+
+	decimal_result = 0;
+	for (i = 0; i < len; i++)
 	{
-		d += (b[len] + '0') * pow(2, j);
-		j++;
+		decimal_result = decimal_result * 2 + (b[i] - '0');
 	}
-	return (d);
+	return (decimal_result);
 }
