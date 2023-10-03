@@ -8,18 +8,20 @@
 int _strlen(char *str)
 {
 	int i = 0;
+
 	while (str[i] != '\0')
 		i++;
 	return (i);
 }
+
 /**
  * append_text_to_file - a function that appends text at the end of a file.
  * @filename: the name of the file
- * @text_content: The text to be appended 
+ * @text_content: The text to be appended
  * Return: returns 1 on success and -1 on failure
  */
 int append_text_to_file(const char *filename, char *text_content)
-{	
+{
 	ssize_t fd, w;
 
 	if (filename == NULL)
