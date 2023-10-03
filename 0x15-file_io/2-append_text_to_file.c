@@ -5,9 +5,9 @@
  * @str: the string to be printed
  * Return: returns the string lenght
  */
-int _strlen(char *str)
+size_t _strlen(char *str)
 {
-	int i = 0;
+	size_t i = 0;
 
 	while (str[i] != '\0')
 		i++;
