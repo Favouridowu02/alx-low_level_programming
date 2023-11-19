@@ -38,7 +38,7 @@ This repository is your comprehensive guide to high-level programming using C pr
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Favouridowu02/alx-low_level_programming
+git clone https://github.com/Favouridowu02/alx-low_level_programming.git
 ```
 
 ## ---With Love From Favour Idowu :) ---
