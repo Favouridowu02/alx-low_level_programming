@@ -1,4 +1,4 @@
-# High-Level Programming in Python
+# Low-Level Programming in C
 
 ## Join me as I divide and explore this great field
 
@@ -30,7 +30,7 @@ Welcome to the beginning of Low-level Programming with C. This repository is des
 
 ## Introduction
 
-This repository is your comprehensive guide to high-level programming using C programming Language.  Whether you are a beginner or looking to enhance your skills, this resource provides a structured learning path.
+This repository is your comprehensive guide to Low-level programming using C programming Language.  Whether you are a beginner or looking to enhance your skills, this resource provides a structured learning path.
 
 ## Getting Started
 
